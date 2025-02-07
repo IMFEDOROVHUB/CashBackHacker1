@@ -6,7 +6,7 @@ import org.junit.Test;
 public class CashbackHackServiceTest {
 
     @Test
-    public void testKashbackMin(){
+    public void testKashbackMin() {
         CashbackHackService service = new CashbackHackService();
         int amount = 999;
 
@@ -16,7 +16,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testKashbackMax(){
+    public void testKashbackMax() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1001;
 
@@ -26,7 +26,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testKashbackEqual(){
+    public void testKashbackEqual() {
         CashbackHackService service = new CashbackHackService();
         int amount = 2000;
 
